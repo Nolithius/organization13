@@ -1,0 +1,118 @@
+body
+{
+	padding: 20px;
+	margin: 0;
+	color: white;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 16px;
+	background-color: #282923;
+}
+
+form#input
+{
+	width: 320px;
+	margin: 0 auto;
+	display: block;
+	overflow: auto;
+}
+
+input#name
+{
+	width: 200px;
+	padding: 10px;
+	margin: 0;
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", serif;
+	border: none;
+	float: left;
+}
+
+input#name::placeholder
+{
+	color: #d0d0d0;
+}
+
+form#input button
+{
+	width: 100px;
+	padding: 10px;
+	margin: 0;
+	font-size: 36px;
+	font-family: Georgia, "Times New Roman", serif;
+	border: none;
+	float: left;
+	background-color: #AA0303;
+	color: white;
+}
+
+form#input button:hover
+{
+	background-color: black;
+	cursor: pointer;
+}
+
+#output *
+{
+	text-align: center;
+}
+
+#output span
+{
+	display: inline-block;
+	padding: 0.5em;
+}
+
+h1#title
+{
+	font-style: italic;
+	color: #666666;
+	text-align: center;
+	margin-top: 0.2em;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	font-weight: normal;
+}
+
+h1
+{
+	font-size: 50px;
+}
+
+h1 .error
+{
+	color: red;
+}
+
+h2
+{
+	font-size: 46px;
+	color: #fbd6d7;
+}
+
+h3
+{
+	font-size: 42px;
+	color: #f7adae;
+}
+
+h4
+{
+	font-size: 38px;
+	color: #ed8587;
+}
+
+h5
+{
+	font-size: 34px;
+	color: #e35d5f;
+}
+
+span.trace
+{
+	font-style: italic;
+	color: #EADACA;
+	font-size: 34px;
+	line-height: 2.5em;
+}
